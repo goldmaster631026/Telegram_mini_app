@@ -12,4 +12,4 @@ const Shop = () => {
 
 export default Shop;
 
- // State variable to track if the mouse has scrolled to the top
+ // State variable to track if the mouse has scrolled to the
