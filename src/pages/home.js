@@ -41,7 +41,7 @@ const Home = () => {
     return () => {
       window.removeEventListener('scroll', handleMouseScroll);
     };
-  }, []); // Empty dependency array ensures this runs once on mount mount
+  }, []); // Empty dependency array ensures this runs once on mount mount update
 
   useEffect(() => {
     const fetchUserData = async () => {
