@@ -21,6 +21,7 @@ const Home = () => {
   const [username, setUsername] = useState("");
   // State variable to track if the mouse is at the top of the screen
   // State variable to track if the mouse has scrolled to the top
+   // State variable to track if the mouse has scrolled to the top
   const [isMouseScrolledToTop, setIsMouseScrolledToTop] = useState(false);
 
   useEffect(() => {
