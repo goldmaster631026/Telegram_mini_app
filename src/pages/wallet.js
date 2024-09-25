@@ -11,5 +11,5 @@ const Wallet = () => {
 };
 
  // State variable to track if the mouse has scrolled to the top
-  // State variable to track if the mouse has scrolled to the 
+// Add event listener for mouse scroll
 export default Wallet;
