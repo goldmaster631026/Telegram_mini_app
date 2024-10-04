@@ -35,7 +35,7 @@ const Home = () => {
       }
     };
 
-    // Add event listener for mouse scrol part
+    // Add event listener for mouse scrollor part
     window.addEventListener('scroll', handleMouseScroll);
 
     // Cleanup function to remove the event listener
