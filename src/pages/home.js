@@ -44,17 +44,17 @@ const Home = () => {
     };
   }, []); // Empty dependency array ensures this runs once on mount mount update
 
-  // useEffect(() => {
-  //   const fetchUserData = async () => {
-  //     const webapp = await window?.Telegram?.WebApp?.initDataUnsafe;
-  //     if (webapp && webapp["user"]) {
-  //       setUsername(webapp["user"]["username"] || "Unknown User");
-  //     } else {
-  //       setUsername("Guest");
-  //     }
-  //   };
-  //   fetchUserData();
-  // }, []);
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const webapp = await window?.Telegram?.WebApp?.initDataUnsafe;
+      if (webapp && webapp["user"]) {
+        setUsername(webapp["user"]["username"] || "Unknown User");
+      } else {
+        setUsername("Guest");
+      }
+    };
+    fetchUserData();
+  }, []);
   console.log("mouse scroll pos", isMouseScrolledToTop);
 
   return (
