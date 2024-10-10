@@ -69,7 +69,7 @@ const Home = () => {
         </div>
         {open && (
           <div className="absolute flex flex-col gap-3 right-5 top-12 z-[1] bg-cyan-950 shadow-black text-white rounded-lg p-2 opacity-70">
-            <div className="hover:bg-blue-200 hover:text-blue-900 px-3 rounded-lg">
+            {/* <div className="hover:bg-blue-200 hover:text-blue-900 px-3 rounded-lg">
               <a href="/languages">Languages</a>
             </div>
             <div className="hover:bg-blue-200 hover:text-blue-900 px-3 rounded-lg">
@@ -80,7 +80,7 @@ const Home = () => {
             </div>
             <div className="hover:bg-blue-200 hover:text-blue-900 px-3 rounded-lg">
               <a href="/support">Get a Support</a>
-            </div>
+            </div> */}
           </div>
         )}
       </div>
