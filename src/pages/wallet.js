@@ -3,7 +3,7 @@ const Wallet = () => {
   return (
     <div>
       <div className="h-[90vh] w-[100vw]">
-        <div>This is the Wallet Page.</div>
+        <div>This is the Walleter Page.</div>
         
       </div>
     </div>
