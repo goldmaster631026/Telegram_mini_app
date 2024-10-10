@@ -8,7 +8,7 @@ const Friends = () => {
     </div>
   );
 };
- // State variable to track if the mouse has scrolled to the top part
+ State variable to track if the mouse has scrolled to the top part
 
 export default Friends;
 
