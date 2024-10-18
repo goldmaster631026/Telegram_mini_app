@@ -9,6 +9,7 @@ const App = () => {
       <Routes />
       {/* {isNavar ? (<Navbar className="w-full" />) : (<Navbar className="w-full opacity-0"></Navbar>)} */}
       <Navbar />
+    //
     </div>
   );
 };
