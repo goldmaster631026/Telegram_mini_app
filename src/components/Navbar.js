@@ -31,7 +31,7 @@ const Navbar = () => {
             <div className="scale-150">
               <i className="bi bi-people-fill" />
             </div>
-            Friends-commision
+            Friends
           </div>
         </a>
         <a href="/wallet">
