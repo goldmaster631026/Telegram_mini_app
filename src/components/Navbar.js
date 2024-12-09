@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="scale-150">
               <i className="bi bi-house-door-fill" />
             </div>
-            Home
+            Homea
           </div>
         </a>
         <a href="/friends">
