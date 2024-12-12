@@ -48,7 +48,7 @@ const EarnCash = () => {
           <p>SOCIAL MEADIA TASK IN LIST VIEW & ORDER ID</p>
         </div>
         <div className="flex flex-col gap-3 mt-5 items-center border-2 border-gray-600 rounded-md">
-          <p>SOCIAL MEADIA TASK IN LIST VIEW & ORDER ID ID</p>
+          <p>SOCIAL MEADIA TASK IN LIST VIEW & ORDER ID</p>
         </div>
 
       </div>
