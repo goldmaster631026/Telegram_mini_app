@@ -15,7 +15,7 @@ const EarnCash = () => {
           </a>
           <a href="https://web.telegram.org" target="blank">
             <div className="bg-blue-600 rounded-xl px-5 py-3 hover:translate-y-1 duration-150">
-              Telegram
+              Telegrame
             </div>
           </a>
           <a href="https://web.whatsapp.com" target="blank">
