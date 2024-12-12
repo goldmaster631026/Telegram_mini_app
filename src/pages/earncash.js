@@ -25,7 +25,7 @@ const EarnCash = () => {
           </a>
           <a href="https://web.skype.com" target="blank">
             <div className="bg-blue-600 rounded-xl px-5 py-3 hover:translate-y-1 duration-150 w-full">
-              Skypee
+              Skype
             </div>
           </a>
         </div>
